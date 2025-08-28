@@ -29,5 +29,5 @@ app.use((req, _res, next) => {
 // Start
 const port = process.env.PORT || 9013;
 server.listen(port, () => {
-  console.log(`Backend listening on port ${port} (${process.env.NODE_ENV || "dev"})`);
+  console.log(`Backend listening on port ${port} and  (${process.env.NODE_ENV || "dev"})`);
 });
